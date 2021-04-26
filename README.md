@@ -1,7 +1,7 @@
 # BR Cities API
 API de cálculo de distância entre cidades do Brasil
 
-*Projeto feito como parte do **Bootcamp Java Developer** da [Digital Innovation One](digitalinnovation.one) ministrado pelo professor [André Gomes](https://www.linkedin.com/in/andreluisgomes/)*
+*Projeto feito como parte do **Bootcamp Java Developer** da [Digital Innovation One](digitalinnovation.one) da aula **Construindo uma API Rest de consulta de cidades do Brasil do zero até a produção** ministrada pelo professor [André Gomes](https://www.linkedin.com/in/andreluisgomes/)*
 
 ### Tecnologias
 
