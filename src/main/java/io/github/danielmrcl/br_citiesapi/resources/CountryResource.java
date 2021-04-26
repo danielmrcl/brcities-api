@@ -8,8 +8,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
-
 @RestController
 @RequestMapping("/countries")
 public class CountryResource {
@@ -24,6 +22,6 @@ public class CountryResource {
     @GetMapping("/{id}")
     public Country getCountry(@PathVariable Long id) throws CountryNotFoundException {
         return repository.findById(id)
-                .orElseThrow(() -> new CountryNotFoundException("Person not founded by ID" + id));
+                .orElseThrow(() -> new CountryNotFoundException("Country not founded by ID " + id));
     }
 }
